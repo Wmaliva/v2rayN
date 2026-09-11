@@ -6,7 +6,15 @@
     "enabled": true,
     "remarks": "UDP443阻断"
   },
- 
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "statcounter.com"
+    ],
+    "enabled": true,
+    "remarks": "直连未拦截"
+  },
+  
   {
     "outboundTag": "block",
     "domain": [
