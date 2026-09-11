@@ -299,6 +299,15 @@
   {
     "outboundTag": "JP",
     "domain": [
+      "api.ip.sb",
+      "iyf.tv"
+    ],
+    "enabled": true,
+    "remarks": "自定义规则集"
+  },
+  {
+    "outboundTag": "JP",
+    "domain": [
       "geosite:category-ai-!cn",
       "geosite:anthropic",
       "geosite:dola",      
@@ -307,7 +316,7 @@
       "geosite:perplexity"      
     ],
     "enabled": true,
-    "remarks": "AI规则集-国外"
+    "remarks": "Ai国际规则集"
   },
   
   {
