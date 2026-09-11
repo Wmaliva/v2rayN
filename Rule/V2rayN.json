@@ -6,6 +6,7 @@
     "enabled": true,
     "remarks": "UDP443阻断"
   },
+  
   {
     "outboundTag": "block",
     "domain": [
@@ -17,6 +18,7 @@
     "enabled": true,
     "remarks": "Ads"
   },
+  
   {
     "outboundTag": "block",
     "process": [
@@ -27,6 +29,12 @@
   }, 
   {
     "outboundTag": "block",
+    "domain": [
+      "domain:acroipm.adobe.com",
+      "domain:adobe.io",
+      "geosite:adobe",
+      "geosite:adobe-activation"
+    ],
     "process": [
       "Acrobat.exe",
       "AcroCEF.exe",
@@ -46,6 +54,78 @@
     "enabled": true,
     "remarks": "Adobe程序"
   }, 
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:autodesk",
+      "domain:launchdarkly.com",
+      "domain:genuine-software.autodesk.com",
+      "domain:genuine-software1.autodesk.com",
+      "domain:genuine-software2.autodesk.com"
+    ],
+    "process": [
+      "acad.exe",
+      "acwebbrowser.exe",
+      "AdskAccessServiceHost.exe",
+      "AdskIdentityManager.exe",
+      "AdskLicensingAgent.exe",
+      "AdskLicensingAnalyticsClient.exe",
+      "AdskLicensingService.exe",
+      "AdskUpdateCheck.exe",
+      "GenuineService.exe",
+      "RevitAccelerator.exe"      
+    ],
+    "enabled": true,
+    "remarks": "Autodesk程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "XX.exe"
+    ],
+    "enabled": true,
+    "remarks": "XX程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "XX.exe"
+    ],
+    "enabled": true,
+    "remarks": "XX程序"
+  },   
+  {
+    "outboundTag": "block",
+    "process": [
+      "XX.exe"
+    ],
+    "enabled": true,
+    "remarks": "XX程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "XX.exe"
+    ],
+    "enabled": true,
+    "remarks": "XX程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "XX.exe"
+    ],
+    "enabled": true,
+    "remarks": "XX程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "XX.exe"
+    ],
+    "enabled": true,
+    "remarks": "XX程序"
+  }, 
 
   
   {
@@ -64,6 +144,7 @@
     "enabled": true,
     "remarks": "绕过局域网IP"
   },
+  
   {
     "outboundTag": "JP",
     "domain": [
