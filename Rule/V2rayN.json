@@ -104,9 +104,111 @@
     ],
     "remarks": "Corel程序"
   }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "ManicTime.Client.dll"
+    ],
+    "enabled": true,
+    "remarks": "ManicTime程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "domain": [
+      "updates.mindjet.com"
+    ],
+    "process": [
+      "MindManager.exe"
+    ],
+    "enabled": true,
+    "remarks": "MindManager程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "PowerISO.exe",
+      "PWRISOVM..EXE"
+    ],
+    "enabled": true,
+    "remarks": "PowerISO程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "domain": [
+      "api.pixpin.com",
+      "pixpin.cn"
+    ],
+    "process": [
+      "PixPin.exe"
+    ],
+    "enabled": true,
+    "remarks": "PixPin程序"
+  },   
+  {
+    "outboundTag": "block",
+    "domain": [
+      "accounts.rhino3d.com"
+      "api.mcneel.com"
+      "api2.enscape3d.com"
+      "store.mcneel.com"
+    ],
+    "process": [
+      "Rhino.exe"
+    ],
+    "enabled": true,
+    "remarks": "Rhino程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "domain": [
+      "DOMAIN-KEYWORD:ad-events",
+      "DOMAIN-KEYWORD:ad-insert",
+      "DOMAIN-KEYWORD:ad-logic",
+      "DOMAIN-KEYWORD:dynamic-ad"
+    ],
+    "enabled": true,
+    "remarks": "Spotify程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "SketchUp.exe",
+      "LayOut.exe",
+      "Style Builder.exe"
+    ],
+    "enabled": true,
+    "remarks": "Trimble程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "Typora.exe"
+    ],
+    "enabled": true,
+    "remarks": "Typora程序"
+  }, 
+  {
+    "outboundTag": "block",
+    "domain": [
+      "dldir1.qq.com",
+      "dldir1v6.qq.com"
+    ],
+    "process": [
+      "Autoupdate.exe",
+      "WeixinUpdate.exe"
+    ],
+    "enabled": true,
+    "remarks": "WeChat程序"
+  }, 
+  {
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true,
+    "remarks": "BT下载"
+  },   
 
-
-  
   
   {
     "outboundTag": "block",
