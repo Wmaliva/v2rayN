@@ -80,46 +80,42 @@
   }, 
   {
     "outboundTag": "block",
-    "process": [
-      "XX.exe"
+    "domain": [
+      "update.pan.baidu.com"
     ],
     "enabled": true,
-    "remarks": "XX程序"
+    "remarks": "Baidu程序"
   }, 
   {
     "outboundTag": "block",
     "process": [
-      "XX.exe"
+      "CamtasiaStudio.exe",
+      "crashpad_handler.exe",
+      "winmm.dll"    
     ],
     "enabled": true,
-    "remarks": "XX程序"
-  },   
-  {
-    "outboundTag": "block",
-    "process": [
-      "XX.exe"
-    ],
-    "enabled": true,
-    "remarks": "XX程序"
+    "remarks": "Camtasia程序"
   }, 
   {
     "outboundTag": "block",
-    "process": [
-      "XX.exe"
+    "domain": [
+      "geosite:corel",
+      "hub5btmain.sandai.net" 
     ],
-    "enabled": true,
-    "remarks": "XX程序"
+    "remarks": "Corel程序"
   }, 
+
+
+  
+  
   {
     "outboundTag": "block",
-    "process": [
-      "XX.exe"
+    "domain": [
+      "geosite:private"
     ],
-    "enabled": true,
-    "remarks": "XX程序"
-  }, 
-  {
-    "outboundTag": "block",
+    "ip": [
+      "geoip:private"
+    ],
     "process": [
       "XX.exe"
     ],
@@ -127,6 +123,8 @@
     "remarks": "XX程序"
   }, 
 
+
+  
   
   {
     "outboundTag": "direct",
