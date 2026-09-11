@@ -390,7 +390,8 @@
   {
     "outboundTag": "JP",
     "domain": [
-      "geosite:gfw"
+      "geosite:gfw",
+      "geosite:greatfire"      
     ],
     "enabled": true,
     "remarks": "GFW"
@@ -446,7 +447,7 @@
       "geosite:zhihu"
     ],
     "enabled": true,
-    "remarks": "直连常用网站"
+    "remarks": "直连常用网站集"
   }, 
   {
     "outboundTag": "direct",
