@@ -296,6 +296,31 @@
     "enabled": true,
     "remarks": "直连公共DNSIP"
   }, 
+  {
+    "outboundTag": "direct",
+    "domain": [      
+      "geosite:alibaba",
+      "geosite:alibabacloud",      
+      "geosite:aliyun",
+      "geosite:amap",
+      "geosite:baidu",
+      "geosite:bilibili",
+      "geosite:bytedance",
+      "geosite:douyin",
+      "geosite:iqiyi",
+      "geosite:tencent",
+      "geosite:tencent-dev",
+      "geosite:tencent-games",
+      "geosite:xiaomi",
+      "geosite:xiaohongshu",
+      "geosite:xiaomi",
+      "geosite:xiaomi-ai",
+      "geosite:xiaomi-iot", 
+      "geosite:youku"
+    ],
+    "enabled": true,
+    "remarks": "直连常用网站"
+  },
   
   {
     "outboundTag": "JP",
@@ -351,6 +376,7 @@
     "ip": [
       "geoip:google",
       "geoip:twitter",
+      "geoip:telegram",      
       "geoip:facebook",
       "geoip:jp",
       "geoip:us" 
