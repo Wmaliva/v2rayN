@@ -320,7 +320,16 @@
     "enabled": true,
     "remarks": "YouTube"
   },
-    {
+  {
+    "outboundTag": "JP",
+    "domain": [
+      "geosite:gfw"
+    ],
+    "enabled": true,
+    "remarks": "GFW"
+  },
+  
+  {
     "outboundTag": "direct",
     "domain": [
       "geosite:cn",
