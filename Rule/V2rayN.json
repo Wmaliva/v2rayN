@@ -301,10 +301,10 @@
     "outboundTag": "JP",
     "domain": [
       "geosite:category-ai-!cn",
-      "geosite::anthropic",
-      "geosite::dola",      
-      "geosite::google-gemini",
-      "geosite::perplexity", 
+      "geosite:anthropic",
+      "geosite:dola",      
+      "geosite:google-gemini",
+      "geosite:perplexity", 
       "geosite::openai"
     ],
     "enabled": true,
@@ -409,19 +409,5 @@
     "outboundTag": "JP",
     "enabled": true,
     "remarks": "国外代理"
-  },
-  {
-    "outboundTag": "block",
-    "domain": [
-      "geosite:xx"
-    ],
-    "ip": [
-      "geoip:xx"
-    ],
-    "process": [
-      "XX.exe"
-    ],
-    "enabled": true,
-    "remarks": "xx程序"
   }
 ]
