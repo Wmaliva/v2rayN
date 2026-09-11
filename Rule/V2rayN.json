@@ -17,7 +17,17 @@
     "enabled": true,
     "remarks": "Ads"
   },
-      {
+  {
+    "outboundTag": "block",
+    "process": [
+      "FineReader.exe"
+    ],
+    "enabled": true,
+    "remarks": "ABBYY程序"
+  },
+
+  
+  {
     "outboundTag": "direct",
     "domain": [
       "geosite:private"
