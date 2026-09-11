@@ -53,7 +53,7 @@
       "geosite::openai"
     ],
     "enabled": true,
-    "remarks": "AI规则集"
+    "remarks": "国外AI规则集"
   },
   {
     "outboundTag": "JP-v6",
