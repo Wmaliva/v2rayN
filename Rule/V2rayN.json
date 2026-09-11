@@ -343,6 +343,25 @@
     "enabled": true,
     "remarks": "Ai国际规则集"
   },
+
+  {
+    "outboundTag": "JP-v6",
+    "domain": [
+      "geosite:netflix",
+      "geosite:tiktok",
+      "geosite:youtube"
+    ],
+    "enabled": true,
+    "remarks": "国外视频域名"
+  },
+  {
+    "outboundTag": "JP-v6",
+    "ip": [
+      "geoip:netflix"
+    ],
+    "enabled": true,
+    "remarks": "国外视频IP"
+  },
   
   {
     "outboundTag": "JP",
@@ -393,24 +412,6 @@
     "remarks": "国外常用网站集-IP"
   },
   
-  {
-    "outboundTag": "JP-v6",
-    "domain": [
-      "geosite:netflix",
-      "geosite:tiktok",
-      "geosite:youtube"
-    ],
-    "enabled": true,
-    "remarks": "国外视频域名"
-  },
-  {
-    "outboundTag": "JP-v6",
-    "ip": [
-      "geoip:netflix"
-    ],
-    "enabled": true,
-    "remarks": "国外视频IP"
-  },
   {
     "outboundTag": "JP",
     "domain": [
