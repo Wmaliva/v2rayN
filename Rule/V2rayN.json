@@ -6,7 +6,18 @@
     "enabled": true,
     "remarks": "UDP443阻断"
   },
-    {
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:category-ads-all",
+      "geosite:category-porn",
+      "geosite:goodreads",
+      "geosite:win-spy"
+    ],
+    "enabled": true,
+    "remarks": "Ads"
+  },
+      {
     "outboundTag": "direct",
     "domain": [
       "geosite:private"
@@ -21,17 +32,6 @@
     ],
     "enabled": true,
     "remarks": "绕过局域网IP"
-  },
-  {
-    "outboundTag": "block",
-    "domain": [
-      "geosite:category-ads-all",
-      "geosite:category-porn",
-      "geosite:goodreads",
-      "geosite:win-spy"
-    ],
-    "enabled": true,
-    "remarks": "Ads"
   },
   {
     "outboundTag": "JP",
