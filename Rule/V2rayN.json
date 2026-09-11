@@ -147,9 +147,9 @@
   {
     "outboundTag": "block",
     "domain": [
-      "accounts.rhino3d.com"
-      "api.mcneel.com"
-      "api2.enscape3d.com"
+      "accounts.rhino3d.com",
+      "api.mcneel.com",
+      "api2.enscape3d.com",
       "store.mcneel.com"
     ],
     "process": [
