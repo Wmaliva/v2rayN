@@ -297,68 +297,6 @@
     "remarks": "直连公共DNSIP"
   }, 
   {
-    "outboundTag": "direct",
-    "domain": [      
-      "geosite:58tongcheng", 
-      "geosite:abc",
-      "geosite:aiqicha",
-      "geosite:alibaba",          
-      "geosite:aliyun",
-      "geosite:aliyun-drive",
-      "geosite:amap",
-      "geosite:apple-cn",
-      "geosite:baidu",
-      "geosite:bilibili",
-      "geosite:bytedance",
-      "geosite:ccb",
-      "geosite:chinaunicom",
-      "geosite:cmb",
-      "geosite:cnki",
-      "geosite:dedao",
-      "geosite:deepseek",
-      "geosite:didi",
-      "geosite:douban",
-      "geosite:douyin",
-      "geosite:huawei",
-      "geosite:huawei-dev",
-      "geosite:huaweicloud",
-      "geosite:icbc",
-      "geosite:iqiyi",
-      "geosite:jd",
-      "geosite:kuaishou",
-      "geosite:meitu",
-      "geosite:meituan",
-      "geosite:netease",
-      "geosite:pinduoduo",
-      "geosite:pingan",
-      "geosite:qihoo360",
-      "geosite:sohu",
-      "geosite:tencent",
-      "geosite:tencent-dev",
-      "geosite:tencent-games",
-      "geosite:tencent-tme",
-      "geosite:xiaomi",
-      "geosite:xiaohongshu",
-      "geosite:xiaomi",
-      "geosite:xiaomi-ai",
-      "geosite:xiaomi-iot", 
-      "geosite:youku",
-      "geosite:zhihu"
-    ],
-    "enabled": true,
-    "remarks": "直连常用网站"
-  },
-  {
-    "outboundTag": "JP",
-    "domain": [
-      "geosite:alibabacloud",
-      "geosite:apple",
-      "geosite:icloud"
-    ],
-    "enabled": true,
-    "remarks": "国际版"
-  },  
-  {
     "outboundTag": "JP",
     "domain": [
       "geosite:category-ai-!cn",
@@ -442,12 +380,74 @@
   {
     "outboundTag": "JP",
     "domain": [
+      "geosite:alibabacloud",
+      "geosite:apple",
+      "geosite:icloud"
+    ],
+    "enabled": true,
+    "remarks": "国际版"
+  }, 
+  {
+    "outboundTag": "JP",
+    "domain": [
       "geosite:gfw"
     ],
     "enabled": true,
     "remarks": "GFW"
   },
-  
+
+  {
+    "outboundTag": "direct",
+    "domain": [      
+      "geosite:58tongcheng", 
+      "geosite:abc",
+      "geosite:aiqicha",
+      "geosite:alibaba",          
+      "geosite:aliyun",
+      "geosite:aliyun-drive",
+      "geosite:amap",
+      "geosite:apple-cn",
+      "geosite:baidu",
+      "geosite:bilibili",
+      "geosite:bytedance",
+      "geosite:ccb",
+      "geosite:chinaunicom",
+      "geosite:cmb",
+      "geosite:cnki",
+      "geosite:dedao",
+      "geosite:deepseek",
+      "geosite:didi",
+      "geosite:douban",
+      "geosite:douyin",
+      "geosite:huawei",
+      "geosite:huawei-dev",
+      "geosite:huaweicloud",
+      "geosite:icbc",
+      "geosite:iqiyi",
+      "geosite:jd",
+      "geosite:kuaishou",
+      "geosite:meitu",
+      "geosite:meituan",
+      "geosite:netease",
+      "geosite:pinduoduo",
+      "geosite:pingan",
+      "geosite:qihoo360",
+      "geosite:sohu",
+      "geosite:tencent",
+      "geosite:tencent-dev",
+      "geosite:tencent-games",
+      "geosite:tencent-tme",
+      "geosite:xiaomi",
+      "geosite:xiaohongshu",
+      "geosite:xiaomi",
+      "geosite:xiaomi-ai",
+      "geosite:xiaomi-iot", 
+      "geosite:youku",
+      "geosite:zhihu"
+    ],
+    "enabled": true,
+    "remarks": "直连常用网站"
+  }, 
   {
     "outboundTag": "direct",
     "domain": [
