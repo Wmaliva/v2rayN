@@ -111,16 +111,16 @@
   {
     "outboundTag": "block",
     "domain": [
-      "geosite:private"
+      "geosite:xx"
     ],
     "ip": [
-      "geoip:private"
+      "geoip:xx"
     ],
     "process": [
       "XX.exe"
     ],
     "enabled": true,
-    "remarks": "XX程序"
+    "remarks": "xx程序"
   }, 
 
 
@@ -153,7 +153,7 @@
       "geosite::openai"
     ],
     "enabled": true,
-    "remarks": "国外AI规则集"
+    "remarks": "AI规则集-国外"
   },
   {
     "outboundTag": "JP-v6",
