@@ -58,7 +58,6 @@
     "domain": [
       "geosite:cn",
       "geosite:china-list",
-      "geosite:geolocation-cn",
       "geosite:category-ai-cn"
     ],
     "enabled": true,
