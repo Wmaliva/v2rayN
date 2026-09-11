@@ -226,24 +226,6 @@
     "enabled": true,
     "remarks": "BT下载"
   },   
-
-
-  {
-    "outboundTag": "block",
-    "domain": [
-      "geosite:xx"
-    ],
-    "ip": [
-      "geoip:xx"
-    ],
-    "process": [
-      "XX.exe"
-    ],
-    "enabled": true,
-    "remarks": "xx程序"
-  }, 
-
-  
   
   {
     "outboundTag": "direct",
@@ -314,8 +296,6 @@
     "enabled": true,
     "remarks": "直连公共DNSIP"
   }, 
-
-
   
   {
     "outboundTag": "JP",
@@ -324,11 +304,61 @@
       "geosite::anthropic",
       "geosite::dola",      
       "geosite::google-gemini",
+      "geosite::perplexity", 
       "geosite::openai"
     ],
     "enabled": true,
     "remarks": "AI规则集-国外"
   },
+  
+  {
+    "outboundTag": "JP",
+    "domain": [
+      "geosite:adguard",
+      "geosite:amazon",
+      "geosite:aws",
+      "geosite:bloomberg",
+      "geosite:bing",
+      "geosite:bitwarden",
+      "geosite:ebay",
+      "geosite:economist", 
+      "geosite:ft",
+      "geosite:giffgaff",
+      "geosite:github",
+      "geosite:google"
+      "geosite:google-play",
+      "geosite:google-registry",
+      "geosite:mozilla",
+      "geosite:nordvpn",
+      "geosite:nytimes",
+      "geosite:okx",
+      "geosite:openwrt",
+      "geosite:paypal",
+      "geosite:quora",
+      "geosite:reuters",
+      "geosite:spotify",
+      "geosite:twitter",
+      "geosite:wise",
+      "geosite:wisekey",
+      "geosite:wsj",
+      "geosite:x"
+    ],
+    "enabled": true,
+    "remarks": "国外常用网站集-域名"
+  },
+  {
+    "outboundTag": "JP",
+    "ip": [
+      "geoip:google",
+      "geoip:twitter",
+      "geoip:facebook",
+      "geoip:jp",
+      "geoip:us" 
+    ],
+    "enabled": true,
+    "remarks": "国外常用网站集-IP"
+  },
+  
   {
     "outboundTag": "JP-v6",
     "domain": [
@@ -370,5 +400,19 @@
     "outboundTag": "JP",
     "enabled": true,
     "remarks": "国外代理"
+  },
+  {
+    "outboundTag": "block",
+    "domain": [
+      "geosite:xx"
+    ],
+    "ip": [
+      "geoip:xx"
+    ],
+    "process": [
+      "XX.exe"
+    ],
+    "enabled": true,
+    "remarks": "xx程序"
   }
 ]
