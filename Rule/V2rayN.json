@@ -6,7 +6,7 @@
     "enabled": true,
     "remarks": "UDP443阻断"
   },
-  
+ 
   {
     "outboundTag": "block",
     "domain": [
@@ -18,7 +18,24 @@
     "enabled": true,
     "remarks": "Ads"
   },
-  
+
+  {
+    "outboundTag": "direct",
+    "domain": [
+      "608331-dghj0wq4vaksp6y1.alidns.com",
+      "r6yhwthgch.cloudflare-gateway.com",
+      "statcounter.com",
+      "www.autodesk.com",
+      "dds.autodesk.com",
+      "download.autodesk.com",
+      "trials.adobe.com",
+      "www.adobe.com",
+      "ardownload3.adobe.com"  
+    ],
+    "enabled": true,
+    "remarks": "直连优先"
+  },
+ 
   {
     "outboundTag": "block",
     "process": [
