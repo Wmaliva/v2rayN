@@ -24,7 +24,28 @@
     ],
     "enabled": true,
     "remarks": "ABBYY程序"
-  },
+  }, 
+  {
+    "outboundTag": "block",
+    "process": [
+      "Acrobat.exe",
+      "AcroCEF.exe",
+      "acrotray.exe",
+      "Acrobat.dll",
+      "acrodistdll.dll",
+      "Adobe Crash Processor.exe",
+      "AdobeCollabSync.exe",
+      "Adobe Desktop Service.exe",
+      "crwindowsclientservice.exe",
+      "CRWindowsClientService.exe",
+      "CRLogTransport.exe",
+      "LogTransport2.exe",
+      "photoshop.exe",
+      "Photoshop.exe"
+    ],
+    "enabled": true,
+    "remarks": "Adobe程序"
+  }, 
 
   
   {
