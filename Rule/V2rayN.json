@@ -304,8 +304,8 @@
       "geosite:anthropic",
       "geosite:dola",      
       "geosite:google-gemini",
-      "geosite:perplexity",
-      "geosite:openai"
+      "geosite:openai",
+      "geosite:perplexity"      
     ],
     "enabled": true,
     "remarks": "AI规则集-国外"
