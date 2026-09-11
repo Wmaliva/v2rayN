@@ -303,7 +303,7 @@
       "iyf.tv"
     ],
     "enabled": true,
-    "remarks": "自定义规则集"
+    "remarks": "自定义代理规则"
   },
   {
     "outboundTag": "JP",
