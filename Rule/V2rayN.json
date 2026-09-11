@@ -4,58 +4,78 @@
     "network": "udp",
     "outboundTag": "block",
     "enabled": true,
-    "remarks": "UDP443\u963B\u65AD"
+    "remarks": "UDP443阻断"
+  },
+    {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:private"
+    ],
+    "enabled": true,
+    "remarks": "绕过局域网域名"
   },
   {
     "outboundTag": "direct",
     "ip": [
       "geoip:private"
     ],
-    "domain": [
-      "geosite:private"
-    ],
     "enabled": true,
-    "remarks": "\u5C40\u57DF\u7F51\u4E13\u7528\u89C4\u5219"
+    "remarks": "绕过局域网IP"
   },
   {
     "outboundTag": "block",
     "domain": [
-      "geosite:category-ads-all"
+      "geosite:category-ads-all",
+      "geosite:category-porn",
+      "geosite:goodreads",
+      "geosite:win-spy"
     ],
     "enabled": true,
-    "remarks": "\u5E7F\u544A\u62E6\u622A"
+    "remarks": "Ads"
   },
   {
-    "outboundTag": "proxy",
+    "outboundTag": "JP",
     "domain": [
-      "geosite:category-ai-!cn"
+      "geosite:category-ai-!cn",
+      "geosite::anthropic",
+      "geosite::dola",      
+      "geosite::google-gemini",
+      "geosite::openai"
     ],
     "enabled": true,
-    "remarks": "AI\u4E13\u7528\u89C4\u5219"
+    "remarks": "AI规则集"
   },
   {
-    "outboundTag": "proxy",
+    "outboundTag": "JP-v6",
     "domain": [
       "geosite:youtube"
     ],
     "enabled": true,
-    "remarks": "\u6CB9\u7BA1\u4E13\u7528\u89C4\u5219"
+    "remarks": "YouTube"
+  },
+    {
+    "outboundTag": "direct",
+    "domain": [
+      "geosite:cn",
+      "geosite:china-list",
+      "geosite:geolocation-cn",
+      "geosite:category-ai-cn"
+    ],
+    "enabled": true,
+    "remarks": "国内直连域名"
   },
   {
     "outboundTag": "direct",
     "ip": [
       "geoip:cn"
     ],
-    "domain": [
-      "geosite:cn"
-    ],
     "enabled": true,
-    "remarks": "\u56FD\u5185\u76F4\u8FDE"
+    "remarks": "国内直连IP"
   },
   {
     "port": "0-65535",
-    "outboundTag": "proxy",
+    "outboundTag": "JP",
     "enabled": true,
-    "remarks": "\u56FD\u5916\u4EE3\u7406"
+    "remarks": "国外代理"
   }
 ]
