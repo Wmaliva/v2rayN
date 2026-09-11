@@ -33,7 +33,7 @@
       "ardownload3.adobe.com"  
     ],
     "enabled": true,
-    "remarks": "直连优先"
+    "remarks": "Direct优先"
   },
  
   {
@@ -385,7 +385,7 @@
       "geosite:category-ai-cn"
     ],
     "enabled": true,
-    "remarks": "国内直连域名"
+    "remarks": "Direct域名"
   },
   {
     "outboundTag": "direct",
@@ -393,7 +393,7 @@
       "geoip:cn"
     ],
     "enabled": true,
-    "remarks": "国内直连IP"
+    "remarks": "Direct IP"
   },
   {
     "port": "0-65535",
