@@ -23,14 +23,32 @@
     "outboundTag": "direct",
     "domain": [
       "608331-dghj0wq4vaksp6y1.alidns.com",
-      "r6yhwthgch.cloudflare-gateway.com",
-      "statcounter.com",
-      "www.autodesk.com",
+      "activated.win",
+      "ardownload3.adobe.com",
+      "autodesk8.com",
+      "cdn.ir",
       "dds.autodesk.com",
+      "downloadly.ir",
+      "downloadlynet.ir",
       "download.autodesk.com",
+      "enscape3d.com",
+      "fengbao12.com",
+      "fifa.com",
+      "get.activated.win",
+      "jiejingku.net",
+      "iisfu.top",
+      "massgrave.dev",
+      "mcneel.com",
+      "obsidian.md",
+      "pmddw.com",
+      "r6yhwthgch.cloudflare-gateway.com",
+      "rhino3d.com",
+      "rohos.com",
+      "statcounter.com",
       "trials.adobe.com",
+      "www.autodesk.com",
       "www.adobe.com",
-      "ardownload3.adobe.com"  
+      "www.driver114.com"
     ],
     "enabled": true,
     "remarks": "直连优先"
@@ -438,6 +456,7 @@
       "geosite:kuaishou",
       "geosite:meitu",
       "geosite:meituan",
+      "geosite:microsoft",
       "geosite:netease",
       "geosite:pinduoduo",
       "geosite:pingan",
@@ -447,6 +466,8 @@
       "geosite:tencent-dev",
       "geosite:tencent-games",
       "geosite:tencent-tme",
+      "geosite:ubuntu",
+      "geosite:win-update",
       "geosite:xiaomi",
       "geosite:xiaohongshu",
       "geosite:xiaomi",
@@ -463,7 +484,8 @@
     "domain": [
       "geosite:cn",
       "geosite:china-list",
-      "geosite:category-ai-cn"
+      "geosite:category-ai-cn",
+      "geosite:category-scholar-cn"
     ],
     "enabled": true,
     "remarks": "直连域名"
