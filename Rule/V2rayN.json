@@ -362,11 +362,20 @@
   {
     "outboundTag": "JP-v6",
     "domain": [
+      "geosite:netflix",
       "geosite:tiktok",
       "geosite:youtube"
     ],
     "enabled": true,
-    "remarks": "国外视频代理"
+    "remarks": "国外视频域名"
+  },
+  {
+    "outboundTag": "JP-v6",
+    "ip": [
+      "geoip:netflix"
+    ],
+    "enabled": true,
+    "remarks": "国外视频IP"
   },
   {
     "outboundTag": "JP",
