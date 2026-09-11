@@ -315,10 +315,11 @@
   {
     "outboundTag": "JP-v6",
     "domain": [
+      "geosite:tiktok",
       "geosite:youtube"
     ],
     "enabled": true,
-    "remarks": "YouTube"
+    "remarks": "国外视频代理"
   },
   {
     "outboundTag": "JP",
