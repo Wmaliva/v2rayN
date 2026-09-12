@@ -436,6 +436,7 @@
       "geosite:adguard",
       "geosite:amazon",
       "geosite:aws",
+      "geosite:bbc",
       "geosite:bloomberg",
       "geosite:bing",
       "geosite:bitwarden",
@@ -461,6 +462,7 @@
       "geosite:wisekey",
       "geosite:wsj",
       "geosite:x",
+      "geosite:zaobao",
       "geosite:category-social-media-!cn"
     ],
     "enabled": true,
@@ -508,7 +510,6 @@
     "remarks": "GFW"
   },
 
-
   {
     "outboundTag": "direct",
     "domain": [
@@ -531,6 +532,7 @@
     "enabled": true,
     "remarks": "直连IP"
   },
+
   {
     "port": "0-65535",
     "outboundTag": "JP",
