@@ -101,7 +101,6 @@
   {
     "outboundTag": "block",
     "domain": [
-      "geosite:autodesk",
       "domain:launchdarkly.com",
       "domain:genuine-software.autodesk.com",
       "domain:genuine-software1.autodesk.com",
