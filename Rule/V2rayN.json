@@ -56,8 +56,7 @@
       "trials.adobe.com",
       "www.autodesk.com",
       "www.adobe.com",
-      "www.driver114.com",
-      "geosite:autodesk"
+      "www.driver114.com"
     ],
     "enabled": true,
     "remarks": "直连优先"
@@ -101,13 +100,21 @@
   {
     "outboundTag": "block",
     "domain": [
+      "geosite:autodesk",
       "domain:launchdarkly.com",
       "domain:genuine-software.autodesk.com",
       "domain:genuine-software1.autodesk.com",
       "domain:genuine-software2.autodesk.com"
     ],
     "process": [
+      "acad.exe",
       "acwebbrowser.exe",
+      "AdskAccessServiceHost.exe",
+      "AdskIdentityManager.exe",
+      "AdskLicensingAgent.exe",
+      "AdskLicensingAnalyticsClient.exe",
+      "AdskLicensingService.exe",
+      "AdskUpdateCheck.exe",
       "GenuineService.exe",
       "RevitAccelerator.exe"      
     ],
