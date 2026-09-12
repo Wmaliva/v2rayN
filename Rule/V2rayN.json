@@ -56,8 +56,8 @@
       "trials.adobe.com",
       "www.autodesk.com",
       "www.adobe.com",
-      "geosite:autodesk",
-      "www.driver114.com"
+      "www.driver114.com",
+      "geosite:autodesk"
     ],
     "enabled": true,
     "remarks": "直连优先"
