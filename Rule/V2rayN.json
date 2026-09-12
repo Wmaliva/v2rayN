@@ -354,7 +354,6 @@
       "geosite:kuaishou",
       "geosite:meitu",
       "geosite:meituan",
-      "geosite:microsoft",
       "geosite:netease",
       "geosite:pinduoduo",
       "geosite:pingan",
@@ -373,11 +372,8 @@
       "geosite:xiaomi-iot", 
       "geosite:youku",
       "geosite:zhihu",
-      "geosite:aws-cn",
       "geosite:category-ai-cn",
       "geosite:category-scholar-cn",
-      "geosite:category-cdn-cn",
-      "geosite:cloudflare-cn",
       "geosite:category-bank-cn",
       "geosite:category-blog-cn",
       "geosite:category-media-cn",
@@ -385,8 +381,7 @@
       "geosite:category-netdisk-cn",
       "geosite:category-ntp-cn",
       "geosite:category-securities-cn",
-      "geosite:category-social-media-cn",
-      "geosite:geolocation-cn"
+      "geosite:category-social-media-cn"
     ],
     "enabled": true,
     "remarks": "直连常用网站集"
@@ -506,8 +501,7 @@
   {
     "outboundTag": "JP",
     "domain": [
-      "geosite:gfw",
-      "geosite:geolocation-!cn"      
+      "geosite:gfw"  
     ],
     "enabled": true,
     "remarks": "GFW"
@@ -518,7 +512,12 @@
     "outboundTag": "direct",
     "domain": [
       "geosite:cn",
-      "geosite:china-list"
+      "geosite:china-list",
+      "geosite:aws-cn",
+      "geosite:category-cdn-cn",
+      "geosite:cloudflare-cn",
+      "geosite:geolocation-cn",
+      "geosite:microsoft" 
     ],
     "enabled": true,
     "remarks": "直连域名"
