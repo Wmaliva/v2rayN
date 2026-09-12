@@ -56,6 +56,7 @@
       "trials.adobe.com",
       "www.autodesk.com",
       "www.adobe.com",
+      "geosite:autodesk",
       "www.driver114.com"
     ],
     "enabled": true,
