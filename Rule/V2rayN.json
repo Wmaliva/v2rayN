@@ -321,6 +321,77 @@
     "enabled": true,
     "remarks": "直连公共DNSIP"
   }, 
+
+  {
+    "outboundTag": "direct",
+    "domain": [      
+      "geosite:58tongcheng", 
+      "geosite:abc",
+      "geosite:aiqicha",
+      "geosite:alibaba",          
+      "geosite:aliyun",
+      "geosite:aliyun-drive",
+      "geosite:amap",
+      "geosite:apple-cn",
+      "geosite:baidu",
+      "geosite:bilibili",
+      "geosite:bytedance",
+      "geosite:ccb",
+      "geosite:chinaunicom",
+      "geosite:cmb",
+      "geosite:cnki",
+      "geosite:dedao",
+      "geosite:deepseek",
+      "geosite:didi",
+      "geosite:douban",
+      "geosite:douyin",
+      "geosite:huawei",
+      "geosite:huawei-dev",
+      "geosite:huaweicloud",
+      "geosite:icbc",
+      "geosite:iqiyi",
+      "geosite:jd",
+      "geosite:kuaishou",
+      "geosite:meitu",
+      "geosite:meituan",
+      "geosite:microsoft",
+      "geosite:netease",
+      "geosite:pinduoduo",
+      "geosite:pingan",
+      "geosite:qihoo360",
+      "geosite:sohu",
+      "geosite:tencent",
+      "geosite:tencent-dev",
+      "geosite:tencent-games",
+      "geosite:tencent-tme",
+      "geosite:ubuntu",
+      "geosite:win-update",
+      "geosite:xiaomi",
+      "geosite:xiaohongshu",
+      "geosite:xiaomi",
+      "geosite:xiaomi-ai",
+      "geosite:xiaomi-iot", 
+      "geosite:youku",
+      "geosite:zhihu",
+      "geosite:aws-cn",
+      "geosite:category-ai-cn",
+      "geosite:category-scholar-cn",
+      "geosite:category-cdn-cn",
+      "geosite:cloudflare-cn",
+      "geosite:category-bank-cn",
+      "geosite:category-blog-cn",
+      "geosite:category-media-cn",
+      "geosite:category-mooc-cn",
+      "geosite:category-netdisk-cn",
+      "geosite:category-ntp-cn",
+      "geosite:category-securities-cn",
+      "geosite:category-social-media-cn",
+      "geosite:geolocation-cn"
+    ],
+    "enabled": true,
+    "remarks": "直连常用网站集"
+  }, 
+  
   {
     "outboundTag": "JP",
     "domain": [
@@ -333,12 +404,12 @@
   {
     "outboundTag": "JP",
     "domain": [
-      "geosite:category-ai-!cn",
       "geosite:anthropic",
       "geosite:dola",      
       "geosite:google-gemini",
       "geosite:openai",
-      "geosite:perplexity"      
+      "geosite:perplexity",
+      "geosite:category-ai-!cn"
     ],
     "enabled": true,
     "remarks": "Ai国际规则集"
@@ -393,7 +464,8 @@
       "geosite:wise",
       "geosite:wisekey",
       "geosite:wsj",
-      "geosite:x"
+      "geosite:x",
+      "geosite:category-social-media-!cn"
     ],
     "enabled": true,
     "remarks": "国外常用网站集-域名"
@@ -401,12 +473,14 @@
   {
     "outboundTag": "JP",
     "ip": [
-      "geoip:google",
-      "geoip:twitter",
-      "geoip:telegram",      
+      "geoip:cloudflare",
+      "geoip:cloudfront",
       "geoip:facebook",
+      "geoip:google",
+      "geoip:telegram",
+      "geoip:twitter",
       "geoip:jp",
-      "geoip:us" 
+      "geoip:us"
     ],
     "enabled": true,
     "remarks": "国外常用网站集-IP"
@@ -417,7 +491,14 @@
     "domain": [
       "geosite:alibabacloud",
       "geosite:apple",
-      "geosite:icloud"
+      "geosite:bytedance-ai-!cn",
+      "geosite:google-cn",
+      "geosite:icloud",
+      "geosite:category-games-!cn",
+      "geosite:category-cdn-!cn",
+      "geosite:category-scholar-!cn",
+      "geosite:category-social-media-!cn",
+      "geosite:category-netdisk-!cn" 
     ],
     "enabled": true,
     "remarks": "国际版"
@@ -426,74 +507,18 @@
     "outboundTag": "JP",
     "domain": [
       "geosite:gfw",
-      "geosite:greatfire"      
+      "geosite:geolocation-!cn"      
     ],
     "enabled": true,
     "remarks": "GFW"
   },
 
-  {
-    "outboundTag": "direct",
-    "domain": [      
-      "geosite:58tongcheng", 
-      "geosite:abc",
-      "geosite:aiqicha",
-      "geosite:alibaba",          
-      "geosite:aliyun",
-      "geosite:aliyun-drive",
-      "geosite:amap",
-      "geosite:apple-cn",
-      "geosite:baidu",
-      "geosite:bilibili",
-      "geosite:bytedance",
-      "geosite:ccb",
-      "geosite:chinaunicom",
-      "geosite:cmb",
-      "geosite:cnki",
-      "geosite:dedao",
-      "geosite:deepseek",
-      "geosite:didi",
-      "geosite:douban",
-      "geosite:douyin",
-      "geosite:huawei",
-      "geosite:huawei-dev",
-      "geosite:huaweicloud",
-      "geosite:icbc",
-      "geosite:iqiyi",
-      "geosite:jd",
-      "geosite:kuaishou",
-      "geosite:meitu",
-      "geosite:meituan",
-      "geosite:microsoft",
-      "geosite:netease",
-      "geosite:pinduoduo",
-      "geosite:pingan",
-      "geosite:qihoo360",
-      "geosite:sohu",
-      "geosite:tencent",
-      "geosite:tencent-dev",
-      "geosite:tencent-games",
-      "geosite:tencent-tme",
-      "geosite:ubuntu",
-      "geosite:win-update",
-      "geosite:xiaomi",
-      "geosite:xiaohongshu",
-      "geosite:xiaomi",
-      "geosite:xiaomi-ai",
-      "geosite:xiaomi-iot", 
-      "geosite:youku",
-      "geosite:zhihu"
-    ],
-    "enabled": true,
-    "remarks": "直连常用网站集"
-  }, 
+
   {
     "outboundTag": "direct",
     "domain": [
       "geosite:cn",
-      "geosite:china-list",
-      "geosite:category-ai-cn",
-      "geosite:category-scholar-cn"
+      "geosite:china-list"
     ],
     "enabled": true,
     "remarks": "直连域名"
