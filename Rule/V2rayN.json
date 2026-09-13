@@ -162,7 +162,8 @@
       "updates.mindjet.com"
     ],
     "process": [
-      "MindManager.exe"
+      "MindManager.exe",
+      "MmApplicationFramework.dll"
     ],
     "enabled": true,
     "remarks": "MindManager程序"
