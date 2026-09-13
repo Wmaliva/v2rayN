@@ -40,6 +40,7 @@
       "downloadly.ir",
       "downloadlynet.ir",
       "download.autodesk.com",
+      "download.mindjet.com",
       "enscape3d.com",
       "fengbao12.com",
       "fifa.com",
@@ -159,7 +160,10 @@
   {
     "outboundTag": "block",
     "domain": [
-      "updates.mindjet.com"
+      "ipm.corel.com",
+      "mindjet.com",
+      "updates.mindjet.com",
+      "www.mindjet.com"
     ],
     "process": [
       "MindManager.exe",
