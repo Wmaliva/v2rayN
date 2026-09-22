@@ -148,9 +148,13 @@
   {
     "outboundTag": "block",
     "process": [
+      "CamRecorder.exe",
+      "CamtasiaOfficeAddin.dll",
       "CamtasiaStudio.exe",
       "crashpad_handler.exe",
-      "winmm.dll"    
+      "EditorInterop.dll",
+      "RegInfo.ini",
+      "winmm.dll"
     ],
     "enabled": true,
     "remarks": "Camtasia程序"
