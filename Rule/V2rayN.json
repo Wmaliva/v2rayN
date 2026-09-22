@@ -28,6 +28,15 @@
   },
 
   {
+    "outboundTag": "JP",
+    "domain": [
+      "apps.apple.com"
+    ],
+    "enabled": true,
+    "remarks": "Proxy 优先"
+  },
+  
+  {
     "outboundTag": "direct",
     "domain": [
       "608331-dghj0wq4vaksp6y1.alidns.com",
