@@ -103,9 +103,13 @@
       "Adobe Crash Processor.exe",
       "AdobeCollabSync.exe",
       "Adobe Desktop Service.exe",
+      "adobe_licensing_wf_acro.exe",
+      "adobe_licensing_wf_helper_acro.exe",
+      "ContainerBL.dll",
       "crwindowsclientservice.exe",
       "CRWindowsClientService.exe",
       "CRLogTransport.exe",
+      "HDPIM.dll",
       "LogTransport2.exe",
       "photoshop.exe",
       "Photoshop.exe"
