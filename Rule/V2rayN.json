@@ -197,6 +197,7 @@
   {
     "outboundTag": "block",
     "process": [
+      "piso.exe",
       "PowerISO.exe",
       "PWRISOVM..EXE"
     ],
